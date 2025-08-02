@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Feedback </title>
+    </head>
+
+    <body>
+        <h1> Feedback Submissions </h1>
+        <ul>
+            {% for feedback in feedbacks %}
+            <li>
+                <strong> {{ feedback.name }} ({{ feedback.email }})</strong>: {{ feedback.message }}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
