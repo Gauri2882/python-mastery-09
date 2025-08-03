@@ -1,4 +1,4 @@
-""" Project: Stock Market Dashboard """
+" Project: Stock Market Dashboard "
 
 import pandas as pd
 import tkinter as tk
