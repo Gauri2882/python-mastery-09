@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Complete Python Project",
+        "due_date": "2025-01-25",
+        "completed": true
+    },
+    {
+        "title": "Attend Team Meeting",
+        "due_date": "2025-01-26",
+        "completed": true
+    }
+]
